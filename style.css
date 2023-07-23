@@ -1,0 +1,125 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos do cabeçalho */
+.cabecalho {
+    background-color: #01004b;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sobre-nos {
+    background-color: #2a262c;
+    color: white;
+}
+.cabecalho-imagem {
+    width: 150px;
+}
+
+.cabecalho-nav {
+    display: flex;
+}
+
+.cabecalho-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.cabecalho-lista-item {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Estilos da seção "Sobre Nós" */
+.sobre-nos {
+    padding: 40px 20px;
+}
+
+.sobre-nos-titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sobre-nos-imagem {
+    margin-top: 20px;
+}
+
+/* Estilos da seção "Estudante" */
+.estudante {
+    background-color: #2a262c;
+    color: white;
+    padding: 40px 20px;
+}
+
+.estudante h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.estudante-todos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.aluno {
+    background-color: #444242;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aluno h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilos da imagem dos alunos (tamanho reduzido) */
+.imagem-estudante {
+    max-width: 80px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos do logo do Instagram */
+.instagram-logo {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+/* Restante do código CSS */
+
+/* Estilos da imagem dos alunos (tamanho ajustado) */
+.imagem-estudante {
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/* Restante do código CSS */
+
+/* Estilos do link "Estudante" */
+.cabecalho-lista-item a {
+    color: white; /* Cor do link quando inativo (não visitado) */
+    text-decoration: none; /* Remover sublinhado do link */
+}
+
+.cabecalho-lista-item a:hover {
+    color: #f0f0f0; /* Cor do link quando em foco (mouse passando por cima) */
+}
